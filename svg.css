@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(245, 54, 143);
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  header {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+    color:gray;
+
+  } 
+  
+  
+  h1 {
+    color: rgb(244, 126, 242);
+    margin-left: 100px;
+  }  
+  
+    body {
+      background-color: rgb(250, 230, 243);}
+    
+#circleSVG {
+    opacity: 1;
+    transition: all 1s linear;
+    fill:rgb(202, 70, 145);
+  }
+  
+  #circleSVG:hover {
+    fill: rgb(242, 42, 165);
+    opacity: .5;
+    transform: scale(5);
+  }
+
+#circleSVG {
+    opacity: 1;
+    transition: all 1s linear;
+  }
+  
+  #circleSVG:hover {
+    fill: rgb(242, 42, 165);
+    opacity: .05;
+    transform: scale(5);
+  }
+  #Layer_1 { display: flex; }
+  #layer_1 {
+    animation: cfade 1.0s;
+  }
+  
+  @keyframes cfade {
+    0%   { transform: translate(0, -200px);}
+    100% { transform: translate(0, 0);}
+  }
+  #SVGCTK {
+    width: 500px;
+    display: block;
+    transition: transform .25s linear;
+    transform-origin: left top;
+  }
+  
+  #SVGCTK:hover {
+    transform: scale(1.1);
+  }
