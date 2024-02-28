@@ -1,0 +1,20 @@
+#canvas1
+ { border: 1px solid rgb(246, 244, 244); background-color: rgb(245, 62, 148); }
+#peekaboo {
+   width: 50vw; /* 50% of viewport (window) width */
+   opacity: 0;
+   transform: translate(0,-200px);
+   transition: all 1s;
+}
+#canvas2 
+{ border: 1px solid rgb(233, 205, 228); }
+#peekaboo.show {
+   opacity: 1;
+   transform: translate(0,0);
+}
+overit {
+   position: absolute;
+   top: 0;
+   left: 0;
+ }
+ 
